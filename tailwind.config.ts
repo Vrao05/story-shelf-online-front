@@ -17,6 +17,10 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Inter', 'sans-serif'],
+			serif: ['Playfair Display', 'serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -52,6 +56,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        bookstore: {
+          purple: {
+            DEFAULT: "#6E59A5",
+            light: "#E5DEFF",
+            dark: "#4A3D7A"
+          },
+          charcoal: "#1A1F2C",
+          cream: "#F8F5FF"
+        },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +97,53 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-in-right': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
+				'fade-in-left': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(-20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.7s ease-out',
+				'fade-in-right': 'fade-in-right 0.7s ease-out',
+				'fade-in-left': 'fade-in-left 0.7s ease-out',
+				'float': 'float 6s ease-in-out infinite'
 			}
 		}
 	},
