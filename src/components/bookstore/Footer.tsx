@@ -1,4 +1,3 @@
-
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 export function Footer() {
@@ -9,7 +8,7 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl pt-12 pb-8 px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">BookHaven</h3>
+            <h3 className="text-xl font-bold mb-4">BookNest</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your destination for literary treasures, where every book tells a story and every reader finds their perfect match.
             </p>
@@ -66,7 +65,7 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-gray-700 text-gray-400 text-sm flex flex-col md:flex-row justify-between items-center">
-          <p>© {currentYear} BookHaven. All rights reserved.</p>
+          <p>© {currentYear} BookNest. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex items-center">
             <img src="https://cdn-icons-png.flaticon.com/512/179/179431.png" alt="Visa" className="h-6 w-auto" />
             <img src="https://cdn-icons-png.flaticon.com/512/179/179457.png" alt="Mastercard" className="h-6 w-auto ml-2" />

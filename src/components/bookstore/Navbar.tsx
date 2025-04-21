@@ -11,7 +11,7 @@ export function Navbar() {
     <nav className="py-4 px-6 bg-white shadow-sm">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <a href="/" className="text-2xl font-bold text-bookstore-purple">BookHaven</a>
+          <a href="/" className="text-2xl font-bold text-bookstore-purple">BookNest</a>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">

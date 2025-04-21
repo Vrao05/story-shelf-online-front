@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -14,7 +13,7 @@ const SignIn = () => {
           <div className="flex justify-center mb-4">
             <UserRound className="h-12 w-12 text-bookstore-purple" />
           </div>
-          <CardTitle className="text-2xl font-serif">Welcome back to BookHaven</CardTitle>
+          <CardTitle className="text-2xl font-serif">Welcome back to BookNest</CardTitle>
           <CardDescription>Enter your credentials to access your account</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
