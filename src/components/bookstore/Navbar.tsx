@@ -14,13 +14,6 @@ export function Navbar() {
           <a href="/" className="text-2xl font-bold text-bookstore-purple">BookNest</a>
         </div>
         
-        <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-bookstore-charcoal hover:text-bookstore-purple transition-colors">Home</a>
-          <a href="#categories" className="text-bookstore-charcoal hover:text-bookstore-purple transition-colors">Categories</a>
-          <a href="#featured" className="text-bookstore-charcoal hover:text-bookstore-purple transition-colors">Featured</a>
-          <a href="#about" className="text-bookstore-charcoal hover:text-bookstore-purple transition-colors">About</a>
-        </div>
-        
         <div className="hidden md:flex items-center space-x-4">
           <div className="relative">
             <Search className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
@@ -49,11 +42,6 @@ export function Navbar() {
               </button>
             </div>
             <div className="flex flex-col items-center gap-6 pt-8">
-              <a href="#" className="text-xl text-bookstore-charcoal">Home</a>
-              <a href="#categories" className="text-xl text-bookstore-charcoal">Categories</a>
-              <a href="#featured" className="text-xl text-bookstore-charcoal">Featured</a>
-              <a href="#about" className="text-xl text-bookstore-charcoal">About</a>
-              
               <div className="relative w-full px-6 mt-4">
                 <Search className="absolute left-8 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
                 <Input 
