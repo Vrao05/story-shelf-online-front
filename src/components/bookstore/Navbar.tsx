@@ -1,8 +1,8 @@
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Menu, Search, ShoppingCart, User, X } from "lucide-react";
-import { Link } from "react-router-dom";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,11 +35,6 @@ export function Navbar() {
           <Button variant="ghost" size="icon">
             <User className="h-5 w-5 text-bookstore-charcoal" />
           </Button>
-          <Link to="/signin">
-            <Button className="bg-bookstore-purple hover:bg-bookstore-purple-dark text-white">
-              Sign In
-            </Button>
-          </Link>
         </div>
         
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -75,12 +70,6 @@ export function Navbar() {
                   <User className="h-5 w-5 text-bookstore-charcoal" />
                 </Button>
               </div>
-              
-              <Link to="/signin">
-                <Button className="w-2/3 bg-bookstore-purple hover:bg-bookstore-purple-dark text-white mt-4">
-                  Sign In
-                </Button>
-              </Link>
             </div>
           </div>
         )}
