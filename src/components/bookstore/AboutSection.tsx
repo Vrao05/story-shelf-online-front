@@ -27,9 +27,9 @@ export function AboutSection() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-bookstore-charcoal font-serif">About BookHaven</h2>
+            <h2 className="text-3xl font-bold text-bookstore-charcoal font-serif">About BookNest</h2>
             <p className="text-gray-600 mt-4 leading-relaxed">
-              BookHaven is more than just an online bookstore. We're a community of book lovers dedicated to sharing the joy of reading and making quality literature accessible to everyone.
+              BookNest is more than just an online bookstore. We're a community of book lovers dedicated to sharing the joy of reading and making quality literature accessible to everyone.
             </p>
             
             <p className="text-gray-600 mt-4 leading-relaxed">
@@ -74,7 +74,7 @@ export function AboutSection() {
             <div className="absolute top-1/2 -left-8 transform -translate-y-1/2 -rotate-6 w-full h-full bg-bookstore-purple rounded-lg -z-10"></div>
             <div className="absolute bottom-8 right-8 bg-white p-4 rounded-lg shadow-lg max-w-xs">
               <p className="text-bookstore-charcoal italic text-sm">
-                "BookHaven has transformed my reading experience! Their recommendations are always spot-on."
+                "BookNest has transformed my reading experience! Their recommendations are always spot-on."
               </p>
               <div className="mt-2 flex items-center">
                 <div className="text-yellow-500 text-sm">★★★★★</div>
