@@ -32,10 +32,6 @@ export function AboutSection() {
               BookNest is more than just an online bookstore. We're a community of book lovers dedicated to sharing the joy of reading and making quality literature accessible to everyone.
             </p>
             
-            <p className="text-gray-600 mt-4 leading-relaxed">
-              Founded in 2023, our mission is to connect readers with the perfect books while providing an exceptional shopping experience. We carefully curate our collection to include diverse voices, thought-provoking works, and timeless classics.
-            </p>
-            
             <div className="mt-8 grid grid-cols-1 gap-6">
               <Feature 
                 icon={<Book className="h-6 w-6 text-bookstore-purple" />}
