@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Menu, Search, ShoppingCart, User, X } from "lucide-react";
+import { Menu, Search, X } from "lucide-react";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,12 +22,6 @@ export function Navbar() {
               placeholder="Search books..." 
             />
           </div>
-          <Button variant="ghost" size="icon">
-            <ShoppingCart className="h-5 w-5 text-bookstore-charcoal" />
-          </Button>
-          <Button variant="ghost" size="icon">
-            <User className="h-5 w-5 text-bookstore-charcoal" />
-          </Button>
         </div>
         
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -48,15 +42,6 @@ export function Navbar() {
                   className="pl-8 w-full h-10 focus-visible:ring-bookstore-purple" 
                   placeholder="Search books..." 
                 />
-              </div>
-              
-              <div className="flex gap-4 mt-4">
-                <Button variant="ghost" size="icon">
-                  <ShoppingCart className="h-5 w-5 text-bookstore-charcoal" />
-                </Button>
-                <Button variant="ghost" size="icon">
-                  <User className="h-5 w-5 text-bookstore-charcoal" />
-                </Button>
               </div>
             </div>
           </div>
